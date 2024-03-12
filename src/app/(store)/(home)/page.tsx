@@ -50,11 +50,11 @@ export default async function Home() {
         return (
           <Link
             key={product.id}
-            href="/"
+            href={`/product/${product.slug}`}
             className="group relative col-span-3 row-span-3 rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-end"
           >
             <Image
-              src="/camiseta-dowhile-2022.png"
+              src={product.image}
               className="group-hover:scale-105 transition-transform duration-500"
               width={920}
               height={920}
