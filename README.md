@@ -24,7 +24,7 @@
 # Devstore
 
 ## ✒️ Descrição
-(Em breve)
+Esta aplicação de e-commerce foi desenvolvida com Next.js e Server Components. O projeto terá funcionalidades básicas, como listagem de produtos, carrinho e busca. O foco principal será a busca e exibição de dados de uma API, utilizando imagens de camisetas e moletons da Rocketseat.
 
 ## 🚀 Tecnologias utilizadas
 <div style="display: inline_block"><br>
