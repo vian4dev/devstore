@@ -31,14 +31,12 @@ Esta aplicação de e-commerce foi desenvolvida com Next.js e Server Components.
   <img align="center" alt="img-typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
 
   <img align="center" alt="img-react" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-
-  <img align="center" alt="img-css" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
 ## 📷 Demostração
 Apresentação da tela do aplicativo.
 <div align="center">
-  (Em breve)
+  <img src="./.github/devstore.gif" alt="devstore" />
 </div>
 
 ## 🔥 Instalação
