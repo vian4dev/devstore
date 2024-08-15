@@ -14,13 +14,18 @@ jobs:
         with:
           node-version: 20
 
-         name: Install PNPM
-       - uses: pnpm/action-setup@v2
-         with:
-           version: 8
-           run_install: false
-          
-       - uses: actions/cache@v3
+      - name: Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+  
+      - uses: actions/cache@v3
         name: Setup pnpm cache
         with:
           path: ${{ env.STORE_PATH }}
@@ -38,8 +43,3 @@ jobs:
         with:
           build: npm run build
           start: npm start
-      
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
