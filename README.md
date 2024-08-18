@@ -50,6 +50,11 @@ Acesse o diretório do projeto.
 ~~~
 cd devstore/
 ~~~
+Crie o arquivo .env.local na raiz do diretório.
+~~~
+NEXT_PUBLIC_API_BASE_URL="https://ignite-devstore-api-d9gl.vercel.app"
+APP_URL="http://localhost:3000"
+~~~
 Instale as dependências.
 ~~~
 pnpm install 
